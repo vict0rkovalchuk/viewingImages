@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+img {
+  border-radius: 15px;
+  width: 660px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+input,
+button {
+  outline: none;
+  border: 5px solid #daa520;
+  border-radius: 15px;
+  font-family: Mate SC, serif;
+  height: auto;
+  margin: 8px;
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  display: none;
+}
+
+button :hover {
+  border: 5px solid black;
+}
+
+ul .photo-card {
+  border-radius: 15px;
+  width: 660px;
+  height: auto;
+  padding: 10px;
+  border: 5px solid burlywood;
+}
+
+li {
+  list-style-type: none;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
